@@ -25,10 +25,15 @@ export default function Layout() {
           ),
           headerRight: () => (
             <Link href="new" asChild>
-              <Pressable style={{marginRight: 18}}
-              hitSlop={20} // Make the touch area larger for UX
+              <Pressable
+                style={{ marginRight: 18 }}
+                hitSlop={20} // Make the touch area larger for UX
               >
-                <AntDesign name="pluscircleo" size={24} color={theme.colorGreen} />
+                <AntDesign
+                  name="pluscircleo"
+                  size={24}
+                  color={theme.colorGreen}
+                />
               </Pressable>
             </Link>
           ),
